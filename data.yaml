@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['freshripe', 'freshunripe', 'overripe', 'ripe', 'rotten', 'unripe']
+
+roboflow:
+  workspace: a-uie0f
+  project: pisang-01epj
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/a-uie0f/pisang-01epj/dataset/1
